@@ -1,4 +1,4 @@
-,Column1,Column2,Column3,Column4,Column5
+,sepal_length,sepal_width,petal_length,petal_width,iris_class
 73,6.1,2.8,4.7,1.2,Iris-versicolor
 18,5.7,3.8,1.7,0.3,Iris-setosa
 118,7.7,2.6,6.9,2.3,Iris-virginica
