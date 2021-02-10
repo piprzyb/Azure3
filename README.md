@@ -1,7 +1,7 @@
 
 # Capstone project
 
-This project shows usge of AutoML and Hyperdrive, two methods available at Azure Machine Learining, to create, train, deploy and consume classification model for Iris dataset. 
+This project shows usage of AutoML and Hyperdrive, two methods available at Azure Machine Learining, to create, train, deploy and consume classification model for Iris dataset. 
 
 ## Dataset
 
@@ -9,7 +9,7 @@ This project shows usge of AutoML and Hyperdrive, two methods available at Azure
 Dataset that is used is Iris dataset. It is freely available at UCI machine learining repository. It contains 150 observations of iris species - 3 classes of 50 observations. There are four features - sepal length, sepal width, petal length and petal width. Features will be used to predict class of iris.
 
 ### Task
-Task of experiment is to correctly predict class of iris flowe based on four features - sepal length, sepal width, petal length and petal width.
+Task of experiment is to correctly predict class of iris flower based on four features - sepal length, sepal width, petal length and petal width. Dataset is explored in 'automl.ipynb' notebook.
 
 ### Access
 Data is freely available in UCI machine learning repository. Dataset link is passed to the Dataset.Tabular.from_delimited_files method.
@@ -52,7 +52,6 @@ Best model:
 <img src="pics/best_hd.PNG">
 
 ## Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 Enpoint webservice was deployed using Azure ACI. Specific commands are shown on screenshot below:
 
 <img src="pics/deploy_code_healthy.PNG">
