@@ -15,7 +15,6 @@ Task of experiment is to correctly predict class of iris flowe based on four fea
 Data is freely available in UCI machine learning repository. Dataset link is passed to the Dataset.Tabular.from_delimited_files method.
 
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
 1. AutoML object was initialized with "classification" task with metric "accuracy". 
 2. experiment_timeout_minutes - maximum amount of time in minutes that all iterations combined can take before the experiment terminates. Iti is set to 15.
 3. n_cross_validations - how many cross validations to perform when user validation data is not specified. It is set to 5 as dataset is not large and it gives reasonable bias/variance tradeoff.
@@ -31,7 +30,7 @@ Below is screenshots of the `RunDetails` widget with several trained models:
 
 Best model:
 
-<img src="pics/best_automl.PNG.png">
+<img src="pics/best_automl.PNG">
 
 
 ## Hyperparameter Tuning
