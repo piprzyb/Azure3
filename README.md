@@ -45,9 +45,6 @@ Model resulted with accuracy 100% with regularization strength (parameter C) equ
 Enpoint webservice was deployed using Azure ACI. Specific commands are shown on screenshot below:
 After endpoint showed as healthy, five samples from test dataset were taken and converted and dumped as JSON files. JSON is then sent to webservice and scoring results are obtained. This way endpoint is queried and tested with sample data.
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+https://youtu.be/U0W6VEcWLz0
 
 
