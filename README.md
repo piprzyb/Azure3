@@ -72,6 +72,7 @@ Model was exported into ONNX format, as shown below:
 Hypedrive model resulted in accuracy equal to 1. AutoML models performed worse. To improve it, AutoML can be run for longer, resulting in higher number of iterations and possibly even better models. Additionaly optimized metrics can be changed to AUC, precision, recall or F1 score. 
 
 ## Screen Recording
-https://youtu.be/U0W6VEcWLz0
+https://www.youtube.com/watch?v=ko9FewFNgkE 
+
 
 
