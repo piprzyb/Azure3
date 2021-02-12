@@ -52,11 +52,11 @@ Best model:
 <img src="pics/best_hd.PNG">
 
 ## Model Deployment
-Enpoint webservice was deployed using Azure ACI. Specific commands are shown on screenshot below:
+Endpoint webservice was deployed using Azure ACI. Specific commands are shown on screenshot below:
 
 <img src="pics/deploy_code_healthy.PNG">
 
-After endpoint showed as healthy, five samples from test dataset were taken and converted and dumped as JSON files. JSON is then sent to webservice and scoring results are obtained. This way endpoint is queried and tested with sample data:
+After endpoint showed as healthy (see screen above and in notebook), five samples from test dataset were taken. converted and dumped as JSON files. JSON is then sent to webservice and scoring results are obtained. This way endpoint is queried and tested with sample data:
 
 <img src="pics/test_endpoint.PNG">
 
