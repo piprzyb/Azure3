@@ -36,7 +36,7 @@ Best model:
 ## Hyperparameter Tuning
 As the task was classification between three classes, Logistic Regression model was chosen. Model was trained with hyperparameters tuned with HyperDrive. Hyperdrive optimized accuracy as primary metric, by maximizing it. Optimized parameters were: C - inverse of regularization strength and parmater max_iter - maximum number of iterations taken for the solver to converge.
 
-Parmeters C and max_iter were sampled randomly using RandomParameterSampling sampler. The C values were chosen from continous range of uniform distribution and the max_iter was chosen from discrete set of values. In random search, each hyperparameter combination from defined range has equal probability of being selected, what results in computational efficiency of the tuning proces, saving time and resources, unlike in grid search where whole range is searched exhaustively. Random search is commonly used method during hyperparematers tuning, as it results with smilary good results as grid search, but in much shorter time.
+Parmeters C and max_iter were sampled randomly using RandomParameterSampling sampler. The C values were chosen from continous range ('uniform(0.1, 0.9)') of uniform distribution and the max_iter was chosen from discrete set of values ('choice(10, 50, 100, 250,  500)'). In random search, each hyperparameter combination from defined range has equal probability of being selected, what results in computational efficiency of the tuning proces, saving time and resources, unlike in grid search where whole range is searched exhaustively. Random search is commonly used method during hyperparematers tuning, as it results with smilary good results as grid search, but in much shorter time.
 
 Additional early stopping Bandit policy was used. The policy helps to optimize time and resources by terminating runs that does not fall within the slack factor or slack amount of the evaluation metric with respect to the best performing run.
 
@@ -63,6 +63,9 @@ After endpoint showed as healthy, five samples from test dataset were taken and 
 After finishing works endpoint was deleted:
 
 <img src="pics/delete.PNG">
+
+## Improvements
+Hypedrive model resulted in accuracy equal to 1. AutoML models performed worse. To improve it, AutoML can be run for longer, resulting in higher number of iterations and possibly even better models. Additionaly optimized metrics can be changed to AUC, precision, recall or F1 score. 
 
 ## Screen Recording
 https://youtu.be/U0W6VEcWLz0
