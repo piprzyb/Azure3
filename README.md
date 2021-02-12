@@ -65,6 +65,10 @@ After finishing works endpoint was deleted:
 <img src="pics/delete.PNG">
 
 ## Improvements
+Model was exported into ONNX format, as shown below:
+
+<img src="pics/onnx.PNG">
+
 Hypedrive model resulted in accuracy equal to 1. AutoML models performed worse. To improve it, AutoML can be run for longer, resulting in higher number of iterations and possibly even better models. Additionaly optimized metrics can be changed to AUC, precision, recall or F1 score. 
 
 ## Screen Recording
